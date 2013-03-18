@@ -1,0 +1,17 @@
+@import "variables-override.less";
+@import "buttons-override.less";
+@import "navs-override.less"; 
+
+
+
+
+
+.border-radius(@t, @r, @b, @l) {
+  -webkit-border-radius: @t @r @b @l;
+     -moz-border-radius: @t @r @b @l;
+          border-radius: @t @r @b @l;
+}
+
+.gradient(@primaryColor, @secondaryColor) {
+  #gradient > .vertical(@primaryColor, @secondaryColor);
+}

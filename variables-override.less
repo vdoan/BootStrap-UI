@@ -1,0 +1,80 @@
+//
+// DF Variables / Bootstrap Variables Override
+// --------------------------------------------------
+
+// Harmony values
+@harmonyBg: #193048;
+
+// Global values
+// --------------------------------------------------
+
+@baseBorderColor: #ddd;
+@baseBorderRadius: 3px;
+@baseSideBarBg: rgba(0, 0, 0, 0.5);
+
+
+// Grays
+// -------------------------
+@black:                 #000;
+@grayDarker:            #222;
+@grayDark:              #404040;
+@gray:                  #555;
+@grayLight:             #ddd;
+@grayLighter:           #eee;
+@white:                 #fff;
+
+
+
+// Links
+// -------------------------
+@linkColor:             #3965CE;
+@linkColorHover:        darken(@linkColor, 15%);
+
+
+// Typography
+// -------------------------
+@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+@serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+@monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
+
+@baseFontSize:          14px;
+@baseFontFamily:        @sansFontFamily;
+@baseLineHeight:        20px;
+@altFontFamily:         @serifFontFamily;
+
+@headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
+@headingsFontWeight:    bold;    // instead of browser default, bold
+@headingsColor:         inherit; // empty to use BS default, @textColor
+
+
+
+// Scaffolding
+// -------------------------
+@bodyBackground:        @harmonyBg;
+@textColor:             @grayDark;
+
+
+// GRID
+// --------------------------------------------------
+
+
+
+
+// Default 940px grid
+// -------------------------
+@gridColumns:             12;
+@gridColumnWidth:         60px;
+@gridGutterWidth:         0px;
+@gridRowWidth:            (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
+
+
+// 1200px min
+@gridColumnWidth1200:     70px;
+@gridGutterWidth1200:     0px;
+@gridRowWidth1200:        (@gridColumns * @gridColumnWidth1200) + (@gridGutterWidth1200 * (@gridColumns - 1));
+
+// 768px-979px
+@gridColumnWidth768:      42px;
+@gridGutterWidth768:      0px;
+
+
